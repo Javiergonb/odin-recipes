@@ -1,0 +1,59 @@
+* {
+    font-family: yu gothic;
+    
+}
+
+body {
+    background-color: #798777;
+    padding-bottom: 5rem;
+    
+}
+
+li {
+    margin: 10px 0;
+  }
+
+h1,
+h2,
+p{
+    color: #F8EDE3;
+    text-align: center;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+h1{
+    color: #F8EDE3;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h2 {
+    color: #F8EDE3;
+}
+
+
+.img-center{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 400px;
+    border-radius: 5%;
+    outline: solid 4px #c9bf97;
+}
+
+.recipe-list,
+.step-list{
+    color: #BDD2B6;
+    font-size: larger;
+    padding-left: 50rem;
+    padding-right: 50rem;
+}
+
+
+.main-page-list{
+    flex-wrap: wrap;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
