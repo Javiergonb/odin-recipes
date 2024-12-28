@@ -1,59 +1,59 @@
 * {
-    font-family: yu gothic;
-    
+    font-family: 'Inter', sans-serif;
+    box-sizing: content-box;
+    color: #EFE3C2;
 }
 
-body {
-    background-color: #798777;
-    padding-bottom: 5rem;
-    
+body{
+    background-color: #123524;
+    margin-bottom: 100px;
 }
 
-li {
-    margin: 10px 0;
-  }
-
-h1,
-h2,
-p{
-    color: #F8EDE3;
-    text-align: center;
-    padding-left: 30rem;
-    padding-right: 30rem;
+div{
+    margin: 16px;
 }
 
-h1{
-    color: #F8EDE3;
-    font-size: 50px;
-    font-weight: 500;
+.index-title{
+    padding: 24px;
+    background-color: #3E7B27;
+
 }
 
-h2 {
-    color: #F8EDE3;
+.index-content{
+    padding: 8px;
+    background-color: #85A947;
+    margin: 24px;
 }
 
+.index-list li {
+    background-color: #3E7B27;
+    padding: 16px;
+    display: inline-block;
+    margin: 16px;
+}
 
-.img-center{
-    display: flex;
+img{
+    border-radius: 5%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
-    width: 400px;
-    border-radius: 5%;
-    outline: solid 4px #c9bf97;
+ 
 }
 
-.recipe-list,
-.step-list{
-    color: #BDD2B6;
-    font-size: larger;
-    padding-left: 50rem;
-    padding-right: 50rem;
+.desc{
+    padding: 16px;
 }
 
+.recipe-desc{
+    padding: 8px;
+    margin-left: 36px ;
+    margin-right: 36px;
+}
 
-.main-page-list{
-    flex-wrap: wrap;
-    padding-left: 30rem;
-    padding-right: 30rem;
+.recipe-list{
+    margin: 18px 36px;
+}
+
+.recipe-list li{
+    padding: 8px;
 }
